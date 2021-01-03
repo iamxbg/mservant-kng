@@ -1,0 +1,30 @@
+<div id="meta-info-editor">
+    <ul>
+        <li>
+            <span>选择类别:</span>
+            <div class="meta-div">
+               <app-tree-selecter [treeData]="treeData"></app-tree-selecter>
+            </div>
+        </li>
+        <li>
+            <span>设置关键字:</span>
+            <div class="meta-div">XXX</div>
+        </li>
+        <li>
+            <span>标题:</span>
+            <div class="meta-div">XXX</div>
+        </li>
+        <li>
+            <span>摘要:</span>
+            <div class="meta-div">XXX</div>
+        </li>
+    </ul>
+</div>
+<div id="content-editor">
+    <textarea id="editor" readonly>
+
+    </textarea>
+    <div>
+        <button id="submitBtn" (click)='submit()'>submit</button>
+    </div>
+</div>
